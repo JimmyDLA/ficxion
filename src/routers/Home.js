@@ -1,6 +1,8 @@
 import './Home.css';
 import { NavBar } from '../components/NavBar.js';
-import video from '../videos/tech_global.mp4';
+import { Overview } from '../components/Overview.js';
+import { Service } from '../components/Service.js';
+import video from '../assets/videos/tech_global.mp4';
 import logo from '../assets/images/tech_logo2.png';
 export const Home = () => {
     return (
@@ -20,6 +22,8 @@ export const Home = () => {
             </video>
         </div>
         <NavBar />
+        <Overview />
+        <Service />
         </div>
     );
 }

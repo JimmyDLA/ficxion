@@ -9,16 +9,12 @@ fonts:
 font-family: 'Roboto Slab', serif;
 font-family: 'Rubik', sans-serif;
 font-family: 'Goldman', cursive;
+*/
 
 
- */
- @font-face {
-    font-family: 'AG_Futura';
-    src: local('AG_Futura'), url(../fonts/AGFuturaRegular.ttf) format('truetype');
-  }
 h1 {
     /* color: #52f3cf; */
-    color: #069be2;
+    /* color: #069be2; */
     margin: 0;
     font-size: 40px;
     font-family: 'Goldman', cursive;
