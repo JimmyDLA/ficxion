@@ -51,7 +51,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 #overviewContainer {
     display: flex;
@@ -112,11 +112,13 @@ p {
 #serviceTop {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 #serviceBottom {
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
+    padding-top: 80px;
+    justify-content: center;
 }
 #serviceTitle {
     font-family: 'Goldman', cursive;
@@ -129,12 +131,17 @@ p {
     align-items: flex-end;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
     flex-wrap: wrap;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 #serviceTopRight {
-    padding-left: 50px;
+    padding-left: 100px;
+    position: relative;
+}
+#webpage2 {
+    position: absolute;
+    top: 22px;
+    left: 123px;
 }
 #serviceBodyCont {
     width: 300px;
@@ -156,16 +163,22 @@ p {
 #serviceBody {
     text-align: right;
     font-family: 'Roboto Slab', serif;
+    color: rgb(110, 110, 110);
+}
+#serviceBodyBottom {
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(110, 110, 110);
 }
 #serviceBottomLeft {
-    padding-right: 30px;
+    padding-right: 150px;
     position: relative;
-}
-#serviceBottomRight {
-    padding-left: 30px;
 }
 #webpage {
     position: absolute;
     top: 85px;
-    left: 100px;
+    left: 66px;
+}
+.lastSection {
+    padding-top: 150px;
 }
