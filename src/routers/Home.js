@@ -2,6 +2,7 @@ import './Home.css';
 import { NavBar } from '../components/NavBar.js';
 import { Overview } from '../components/Overview.js';
 import { Service } from '../components/Service.js';
+import { Projects } from '../components/Projects.js';
 import video from '../assets/videos/tech_global.mp4';
 import logo from '../assets/images/tech_logo2.png';
 export const Home = () => {
@@ -24,6 +25,8 @@ export const Home = () => {
         <NavBar />
         <Overview />
         <Service />
+        <Projects />
+
         </div>
     );
 }

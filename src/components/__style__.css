@@ -182,3 +182,59 @@ p {
 .lastSection {
     padding-top: 150px;
 }
+#projContainer {
+  width: 100%;
+  padding-bottom: 100px;
+  background-color: #1e3c50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#projTitle {
+  color: white;
+  padding: 50px 50px 0 50px;
+  font-size: 60px;
+  font-weight: 200;
+}
+.projBoxCont {
+  margin: 80px;
+  position: relative;
+  border: 3px white solid;
+}
+#projBoxInfo {
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+#projBoxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+#projBoxOverlay:hover {
+  opacity: 1;
+}
+#projInfoCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.allProjContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#projBoxTitle {
+  color: white;
+  text-align: center;
+}

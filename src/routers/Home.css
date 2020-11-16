@@ -26,6 +26,11 @@ h2 {
     /* color: #52f3cf; */
 
 }
+hr {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+}
 #logoContainer {
     display: flex;
     width: 100%;
