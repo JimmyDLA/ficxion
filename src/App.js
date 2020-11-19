@@ -37,14 +37,13 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
+          
           <Route path="/about">
-            {/* <About />s */}
             <h1>about</h1>
           </Route>
+          
           <Route path="/dashboard">
-          <h1>dashboard</h1>
-
-            {/* <Dashboard /> */}
+            <h1>dashboard</h1>
           </Route>
         </Switch>
       </div>
