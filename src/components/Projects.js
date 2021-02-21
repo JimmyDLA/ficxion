@@ -11,12 +11,12 @@ import project5 from '../assets/images/project5.png';
 export const Projects = () => {
   const info = 'Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.';
   const projectArr = [
-    {pic: webApp, title: 'Retro Snake', info},
-    {pic: mobileApp, title: 'MobileIM', info},
-    {pic: webApp, title: 'JDLA Portfilio', info},
-    {pic: mobileApp, title: 'FIGRD', info},
-    {pic: webApp, title: 'NYC Wreck-a-mended', info},
-    {pic: webApp, title: 'Blink', info},
+    {pic: webApp, title: 'Retro Snake', info, url: 'https://jimmydla.github.io/RetroSnake/'},
+    {pic: mobileApp, title: 'MobileIM', info, url: 'https://github.com/JimmyDLA/mobileIM'},
+    {pic: webApp, title: 'JDLA Portfilio', info, url: 'https://jimmydla.com'},
+    {pic: mobileApp, title: 'FIGRD', info, url: 'https://github.com/JimmyDLA/FIGRD'},
+    {pic: webApp, title: 'NYC Wreck-a-mended', info, url: 'http://www.nycwreckamended.com/'},
+    {pic: webApp, title: 'Blink', info, url: 'https://wid-blink.herokuapp.com/'},
   ]
   return (
     <div id="projContainer">
@@ -24,7 +24,7 @@ export const Projects = () => {
       <hr />
       <div className="allProjContainer">
         {projectArr.map((proj, i) => (
-          <ProjectBox key={`projectBox${i}`} title={proj.title} pic={proj.pic} info={proj.info} />
+          <ProjectBox key={`projectBox${i}`} title={proj.title} pic={proj.pic} info={proj.info} url={proj.url}/>
         ))}
       </div>
     </div>

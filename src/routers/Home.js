@@ -14,7 +14,7 @@ export const Home = () => {
             <div className="content">
                 <div id="logoContainer">
                     <img src={logo} alt="logo" id="logo" width="80" height="80" />
-                    <h1>Ficxion Dev.</h1>
+                    <h1 className="title">Ficxion Dev.</h1>
                 </div>
 
                 <h2>Making Imagination, Reality </h2>
